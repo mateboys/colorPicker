@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="color-preview" id="colorPreview"></div>
+        <div class="action-row">
+            <button id="pickColorBtn">🎨 吸取颜色</button>
+            <div class="color-input-wrapper">
+                <input type="color" id="colorInput">
+            </div>
+        </div>
+
+        <div class="history">
+            <h3>最近使用</h3>
+            <div class="history-items" id="colorHistory"></div>
+        </div>
+    </div>
+    
+    <div id="message" class="message"></div>
+    <script src="popup.js"></script>
+</body>
+</html>
